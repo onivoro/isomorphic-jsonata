@@ -1,7 +1,7 @@
 {
     "name": "@onivoro/isomorphic-jsonata",
-    "version": "0.0.8",
-    "repo": {
+    "version": "0.0.9",
+    "repository": {
         "url": "git+https://github.com/onivoro/isomorphic-jsonata.git"
     },
     "main": "dist/cjs/index.js",
