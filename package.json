@@ -1,6 +1,6 @@
 {
     "name": "isomorphic-jsonata",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "repo": {
         "url": "git+https://github.com/onivoro/isomorphic-jsonata.git"
     },
@@ -30,6 +30,7 @@
         "module": "commonjs"
     },
     "dependencies": {
+        "@onivoro/isomorphic-common": "^0.3.6",
         "jsonata": "^2.0.3"
     },
     "devDependencies": {
@@ -38,7 +39,7 @@
         "typescript": "*"
     },
     "engines": {
-        "node": "16.20.2",
-        "npm": "8.19.4"
+        "node": "18.19.1",
+        "npm": "10.2.4"
     }
 }
