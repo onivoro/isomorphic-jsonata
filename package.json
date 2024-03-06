@@ -1,0 +1,44 @@
+{
+    "name": "isomorphic-jsonata",
+    "version": "0.0.6",
+    "repo": {
+        "url": "git+https://github.com/onivoro/isomorphic-jsonata.git"
+    },
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "types": "dist/types/index.d.ts",
+    "files": [
+        "dist/*"
+    ],
+    "scripts": {
+        "onx": "onx",
+        "build": "onx Build",
+        "deploy": "onx Publish",
+        "test": "onx Test",
+        "update": "onx Update"
+    },
+    "exports": {
+        ".": {
+            "types": "./dist/types/index.d.ts",
+            "require": "./dist/cjs/index.js",
+            "import": "./dist/esm/index.js",
+            "default": "./dist/esm/lib.js"
+        }
+    },
+    "onx": {
+        "platform": "isomorphic",
+        "module": "commonjs"
+    },
+    "dependencies": {
+        "jsonata": "^2.0.3"
+    },
+    "devDependencies": {
+        "@onivoro/cli": "*",
+        "@types/jest": "*",
+        "typescript": "*"
+    },
+    "engines": {
+        "node": "16.20.2",
+        "npm": "8.19.4"
+    }
+}
