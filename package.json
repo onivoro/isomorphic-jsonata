@@ -1,5 +1,5 @@
 {
-    "name": "isomorphic-jsonata",
+    "name": "@onivoro/isomorphic-jsonata",
     "version": "0.0.8",
     "repo": {
         "url": "git+https://github.com/onivoro/isomorphic-jsonata.git"
