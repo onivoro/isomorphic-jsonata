@@ -30,16 +30,16 @@
         "module": "commonjs"
     },
     "dependencies": {
-        "@onivoro/isomorphic-common": "^0.3.6",
-        "jsonata": "^2.0.4"
+        "@onivoro/isomorphic-common": "^22.0.0",
+        "jsonata": "^2.0.5"
     },
     "devDependencies": {
-        "@onivoro/cli": "*",
+        "@onivoro/cli": "^22.0.3",
         "@types/jest": "*",
         "typescript": "*"
     },
     "engines": {
-        "node": "18.19.1",
-        "npm": "10.2.4"
+        "node": "22.10.0",
+        "npm": "10.9.0"
     }
 }
