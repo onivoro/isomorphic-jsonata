@@ -30,11 +30,11 @@
         "module": "commonjs"
     },
     "dependencies": {
-        "@onivoro/isomorphic-common": "^22.0.0",
+        "@onivoro/isomorphic-common": "^22.0.2",
         "jsonata": "^2.0.5"
     },
     "devDependencies": {
-        "@onivoro/cli": "^22.0.3",
+        "@onivoro/cli": "^22.0.4",
         "@types/jest": "*",
         "typescript": "*"
     },
